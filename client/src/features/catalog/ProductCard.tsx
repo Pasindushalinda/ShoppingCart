@@ -29,7 +29,7 @@ export default function ProductCard({ product }: Props) {
             />
             <CardContent>
                 <Typography gutterBottom color='secondary' variant="h5" >
-                    ${(product.price / 100).toFixed(2)}
+                    $ {(product.price / 100).toFixed(2)}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                     Lizards are a widespread group of squamate reptiles, with over 6,000
